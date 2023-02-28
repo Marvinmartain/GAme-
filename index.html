@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <h1>Rock, Paper, Scissors Game</h1>
+    <div class="game-main">
+    <div class="gamer">
+            <h2>Player 1</h2>
+            <img src="http://musicuentos.com/wp-content/blogs.dir/1/files/2015/10/rock-paper-scissors-156171_1280.png" id="player1-hand">
+    <div>
+    <button onclick="pickHand('rock', 1)">Rock</button>
+    <button onclick="pickHand('paper', 1)">Paper</button>
+    <button onclick="pickHand('scissors', 1)">Scissors</button>
+    </div>
+    </div>
+
+    <div class="gamer">
+        <h2>Player 2</h2>
+        <img src="http://musicuentos.com/wp-content/blogs.dir/1/files/2015/10/rock-paper-scissors-156171_1280.png" id="player2-hand">
+
+    <div>
+    <button onclick="pickHand('rock', 2)">Rock</button>
+    <button onclick="pickHand('paper', 2)">Paper</button>
+    <button onclick="pickHand('scissors', 2)">Scissors</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="outcome" id="outcome">
+
+    <button id="stopButton">Stop</button>
+    <button id="stopButton">Stop</button>
+    </div>
+    
+    <script>
+        let isGameRunning = true;
+
+        document.getElementById("stopButton").addEventListener("click", stopFunction);
+
+        const stopFunction() => {
+           isGameRunning = false;
+// allow game to run variable to false so game will stop 
+        }
+        
+        const gameLoop() => {
+            while (isGameRunning) {
+// the code in the game logic and outcome goes here
+            }
+        }
+        </script>
+
+        
+<script src="Perscholas-app.js" async defer></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8f474738;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.game-main {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.gamer {
+    width: 200px;
+    height: 300px;
+    background-color: #5c57574d;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 2px 10px;
+}
+
+.gamer img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+#stopButton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 2px;
+    
+}
+
+.outcome{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+

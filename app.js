@@ -15,8 +15,3 @@ const pickHand(hand, player) {
 }
 
 //Winning Hand
-const confirmWinner() {
-    if (player1Hand == player2Hand) {
-        document.getElementById('result').innerHTML = 'TIE';
-    } else if (player1Hand == 'rock' && player2Hand === 'scissors' || player1Hand == 'paper' && player2Hand === 'rock' || )
-}

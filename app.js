@@ -14,9 +14,18 @@ const pickHand(hand, player) {
    confirmWinner();
 }
 
-//Winning Hand
-const confirmWinner() {
-    if (player1Hand == player2Hand) {
-        document.getElementById('result').innerHTML = 'TIE';
-    } else if (player1Hand == 'rock' && player2Hand === 'scissors' || player1Hand == 'paper' && player2Hand === 'rock' || )
-}
+
+
+const player1Hand 
+const player2Hand= () => {
+    const pickHand = player1Hand, player2Hand('paper');
+    const player1 = player2Hand();
+    console.log('You threw: ' + pickHand);
+ 
+    console.log('The computer threw: ' + computerChoice);
+  
+    console.log(determineWinner(player1Hand, player2Hand));
+  };
+  
+  player1Hand()
+  player2Hand()
